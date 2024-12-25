@@ -1,0 +1,75 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Type Selector */
+h1 {
+    color: #d35400;
+    text-align: center;
+    font-size: 2.5rem;/* The default value for rem is 16 pixels, which is the default font size for most browsers. 
+    Calculation: To calculate a rem value, multiply the base font size by the rem value. For example, if the base font size is 16 pixels, then 1rem is 16 pixels, 0.5rem is 8 pixels, and 1.5rem is 24 pixels.*/
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #16a085;
+    font-size: 1.2rem;
+    display: inline-block; /* Ensures 'inline-heading' behavior is consistent */
+}
+
+
+
+/* Descendant Selector */
+div ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+div ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Box Model Styling */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;/*20px margin for top and bottom, auto for left and right --> This centers the element horizontally within its container. */
+}
+
+/* Text Alignment */
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Background Color and Padding for Specific Sections */
+div {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Link to this CSS in your HTML file */
